@@ -1,0 +1,49 @@
+@import '../../variables/Variables.scss';
+
+.bloco-parallax {
+    display: flex;
+    flex-flow: wrap;
+    align-items: flex-end;
+}
+
+.parallax { 
+    background-image: url("../../assets/banner.png");
+    opacity: 0.90;
+    min-height: 600px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bloco-header {
+    background-color: #000000af;
+    color: #e8eddf;
+    padding: 18px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+.lead-header {
+    color: #e8eddf;
+    font-size: 1.2rem;
+    padding-top: 15px;   
+}
+
+.btn-primary > a {
+    text-decoration: none;
+    color: #000000;
+    &:hover {
+        color: #000000;
+    }
+}
+
+.btn-primary {
+    background-color: #ffbd4bc3;
+    border: none;
+    margin: 2px;
+    &:hover {
+        background-color: #74bedcc3;
+    }
+}

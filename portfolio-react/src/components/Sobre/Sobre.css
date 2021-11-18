@@ -1,0 +1,44 @@
+.sobre {
+  color: #575b57;
+  padding: 4.5rem 4.5rem;
+  text-align: justify;
+}
+
+h2 {
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  text-align: left;
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+  color: #ffbc4b;
+}
+
+strong {
+  color: #0b749d;
+}
+
+.link-DH {
+  text-decoration: none;
+  color: #ffabb3;
+}
+
+.link-DH:hover {
+  text-decoration: none;
+  color: #ffbc4b;
+}
+
+@media (min-width: 900px) {
+  #sobre {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sobre {
+    width: 50vw;
+  }
+}
+/*# sourceMappingURL=Sobre.css.map */

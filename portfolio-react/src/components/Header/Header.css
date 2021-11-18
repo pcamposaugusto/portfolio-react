@@ -1,0 +1,55 @@
+.bloco-parallax {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.parallax {
+  background-image: url("../../assets/banner.png");
+  opacity: 0.90;
+  min-height: 600px;
+  text-align: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bloco-header {
+  background-color: #000000af;
+  color: #e8eddf;
+  padding: 18px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+.lead-header {
+  color: #e8eddf;
+  font-size: 1.2rem;
+  padding-top: 15px;
+}
+
+.btn-primary > a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.btn-primary > a:hover {
+  color: #000000;
+}
+
+.btn-primary {
+  background-color: #ffbd4bc3;
+  border: none;
+  margin: 2px;
+}
+
+.btn-primary:hover {
+  background-color: #74bedcc3;
+}
+/*# sourceMappingURL=Header.css.map */

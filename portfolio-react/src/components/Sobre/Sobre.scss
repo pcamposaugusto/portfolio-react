@@ -1,0 +1,41 @@
+@import '../../variables/Variables.scss';
+
+.sobre {
+    color: $cinzaFonte;
+    padding: 4.5rem 4.5rem;
+    text-align: justify;
+}
+
+h2 {
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    text-align: left;
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    color: $laranja;
+}
+
+strong {
+    color: $azulStrong;
+}
+
+.link-DH {
+    text-decoration: none;
+    color: $rosaStrong;
+    &:hover {
+        text-decoration: none;
+        color: $laranja;
+    }
+}
+
+@media (min-width: 900px) {
+    #sobre {
+        display: flex;
+        flex-direction: column;
+    }
+    .sobre {
+        width: 50vw;
+        
+    }
+}
+

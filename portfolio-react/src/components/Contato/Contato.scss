@@ -1,0 +1,22 @@
+@import '../../variables/Variables.scss';
+
+#contato {
+    color: #575b57;
+    padding: 50px 65px;
+    text-align: justify;
+}
+
+.form-control:focus {
+    background-color: #ffd0d5;
+}
+
+.btn-form {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #a4c9d8;
+}
+
+.btn-form:hover {
+    background-color: #ffd0d5;
+}
