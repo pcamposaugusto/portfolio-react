@@ -1,22 +1,28 @@
 @import '../../variables/Variables.scss';
 
 #contato {
-    color: #575b57;
-    padding: 50px 65px;
+    color: $cinzaFonte;
+    padding: 4rem 4rem;
     text-align: justify;
 }
 
 .form-control:focus {
-    background-color: #ffd0d5;
+    background-color: $rosa;
 }
 
 .btn-form {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #a4c9d8;
+    background-color: $azulBtn;
+    margin-right: 1rem;
+    &:hover {
+        background-color: $rosa;
+    }
 }
 
-.btn-form:hover {
-    background-color: #ffd0d5;
+@media (min-width: 900px) {
+    .contato {
+        max-width: 800px;
+    }
 }

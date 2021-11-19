@@ -1,6 +1,8 @@
+import './Projetos.css'
+
 const Projetos = () => {
     return (
-        <section>
+        <section id="#projetos">
             
         </section>
 

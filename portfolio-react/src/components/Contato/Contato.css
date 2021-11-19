@@ -1,6 +1,6 @@
 #contato {
   color: #575b57;
-  padding: 50px 65px;
+  padding: 4rem 4rem;
   text-align: justify;
 }
 
@@ -13,9 +13,16 @@
   border: none;
   border-radius: 5px;
   background-color: #a4c9d8;
+  margin-right: 1rem;
 }
 
 .btn-form:hover {
   background-color: #ffd0d5;
+}
+
+@media (min-width: 900px) {
+  .contato {
+    max-width: 800px;
+  }
 }
 /*# sourceMappingURL=contato.css.map */

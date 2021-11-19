@@ -1,49 +1,42 @@
 @import '../../variables/Variables.scss';
 
-footer {
-    background-color: #333533;
-    color: rgb(138, 134, 134);
-    padding: 15px 20px;
+.footer {
+    background-color: $backgroundCinza;
+    color: $fonteFooter;
+    padding: 3rem 4rem;
     text-align: center;
 }
 
 .footer-links1 {
     display: flex;
-    justify-content: space-around;
-}
-
-.footer-links2 {
-    display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    max-width: 10rem;
+    padding: 1rem 1rem;
+    gap: .8rem;
+    align-self: center;
 }
 
 .icones-footer {
     width: 4em;
 }
 
-.container > li {
-    list-style: none;
-}
-
-.footer-links2 > li {
-    font-size: 0.9rem;
-}
-
-li > a {
+.footer-links1 a {
     text-decoration: none;
-    color: #e8eddf;
+    color: $linkFooter;
+    &:hover {
+        text-decoration: none;
+        color: $azulClaro;
+    }
 }
 
-li > a:hover {
-    text-decoration: none;
-    color: #74bedc;
+.copyright {
+    margin-top: 1rem;
 }
 
-.footer-links2 > li > a:hover {
-    color: #ffabb3;
-} 
-
-footer > p {
-    font-size: 0.9rem;
-    margin-top: 12px;
+@media (min-width: 510px) {
+    .footer-links1 {
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 3rem;
+    }
 }
