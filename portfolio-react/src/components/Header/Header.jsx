@@ -11,8 +11,8 @@ const Header = () => {
                     </div>
                     <p className="lead lead-header">Desenvolvedora Front-end Júnior</p>
                     <div className="btn-group mb-5" role="group" aria-label="Basic example">
-                        <button type="button" className="btn btn-primary"><a alt="button linkedin de Paula" href="https://www.linkedin.com/in/pcamposaugusto" target="_blank">LinkedIn</a></button>
-                        <button type="button" className="btn btn-primary"><a alt="button github de Paula" href="https://github.com/pcamposaugusto" target="_blank">Github</a></button>
+                        <button type="button" className="btn btn-primary"><a alt="button linkedin de Paula" href="https://www.linkedin.com/in/pcamposaugusto" target="_blank" rel="noreferrer">LinkedIn</a></button>
+                        <button type="button" className="btn btn-primary"><a alt="button github de Paula" href="https://github.com/pcamposaugusto" target="_blank" rel="noreferrer">Github</a></button>
                     </div>
                 </div>
             </div>

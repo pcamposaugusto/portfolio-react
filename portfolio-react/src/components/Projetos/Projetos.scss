@@ -1,2 +1,13 @@
 @import '../../variables/Variables.scss';
 
+.cards {    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 18px;
+    text-align: left;
+    background-color: $backgroundCinza;
+    padding: 4.5rem 4.5rem;
+}
+
+
+

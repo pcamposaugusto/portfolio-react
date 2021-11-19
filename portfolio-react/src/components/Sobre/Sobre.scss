@@ -3,15 +3,18 @@
 .sobre {
     color: $cinzaFonte;
     padding: 4.5rem 4.5rem;
-    text-align: justify;
+}
+
+.intro {
+    text-align: left;
 }
 
 h2 {
     letter-spacing: 0.1rem;
     font-weight: bold;
     text-align: left;
-    font-size: 2rem;
-    padding-bottom: 1.5rem;
+    font-size: 1.8rem;
+    padding-bottom: 3rem;
     color: $laranja;
 }
 
@@ -28,6 +31,25 @@ strong {
     }
 }
 
+.btn-cv {
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: $laranja;
+    margin-top: 3rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    &:hover {
+        background-color: $rosaStrong;
+    }
+}
+.btn-cv > a {
+    text-decoration: none;
+    color: #000000;
+    &:hover {
+        color: #000000;
+    }
+}
+
 @media (max-width: 900px) {
     .skills {
         display: none;
@@ -35,33 +57,37 @@ strong {
 }
 
 @media (min-width: 900px) {
-    #sobre {
+    .sobre {
         display: flex;
         flex-direction: row;
+        gap: 3rem;
     }
-    .sobre {
-        width: 50vw;
+    .intro {
+        width: 92vw;
+    }
+    h2 {
+        font-size: 2.5rem;
     }
     .skills {
         color: $cinzaFonte;
     }
+    .conhecimentos {
+        background-color: $rosa;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        border: $cinzaFonte 1px solid;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
 
-    .btn-cv {
-        padding: 1rem;
-        border: none;
-        border-radius: 5px;
-        background-color: $rosaStrong;
-        margin-right: 1rem;
-        &:hover {
-            background-color: $laranja;
-        }
     }
-    .btn-cv > a {
-        text-decoration: none;
-        color: #000000;
-        &:hover {
-            color: #000000;
-        }
+    .aprendendo {
+        background-color: $azulBtn;
+        margin-top: 2rem;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        border: $cinzaFonte 1px solid;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    }
+    .skills li {
+        font-size: 1rem;
     }
 }
-

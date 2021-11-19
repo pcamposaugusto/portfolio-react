@@ -1,7 +1,7 @@
 #contato {
   color: #575b57;
   padding: 4rem 4rem;
-  text-align: justify;
+  text-align: left;
 }
 
 .form-control:focus {
@@ -13,7 +13,9 @@
   border: none;
   border-radius: 5px;
   background-color: #a4c9d8;
-  margin-right: 1rem;
+  margin-right: .8rem;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
 }
 
 .btn-form:hover {
@@ -25,4 +27,4 @@
     max-width: 800px;
   }
 }
-/*# sourceMappingURL=contato.css.map */
+/*# sourceMappingURL=Contato.css.map */
