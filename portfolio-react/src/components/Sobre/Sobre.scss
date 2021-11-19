@@ -28,14 +28,40 @@ strong {
     }
 }
 
+@media (max-width: 900px) {
+    .skills {
+        display: none;
+    }
+}
+
 @media (min-width: 900px) {
     #sobre {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     .sobre {
         width: 50vw;
-        
+    }
+    .skills {
+        color: $cinzaFonte;
+    }
+
+    .btn-cv {
+        padding: 1rem;
+        border: none;
+        border-radius: 5px;
+        background-color: $rosaStrong;
+        margin-right: 1rem;
+        &:hover {
+            background-color: $laranja;
+        }
+    }
+    .btn-cv > a {
+        text-decoration: none;
+        color: #000000;
+        &:hover {
+            color: #000000;
+        }
     }
 }
 
