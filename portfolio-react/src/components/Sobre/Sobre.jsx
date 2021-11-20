@@ -3,7 +3,7 @@ import cv from '../../assets/CV-PaulaAugusto-ultimaversao.pdf'
 
 const Sobre = () => {
     return (
-        <section id="#sobre">
+        <section id="sobre">
             <div className="container-fluid sobre">
                 <div className="intro">
                     <h2>SEJA BEM-VINDO(A)!</h2>
@@ -18,7 +18,7 @@ const Sobre = () => {
                     </button>   
                 </div>
                 <div className="skills container-fluid">
-                    <div data-aos="fade-left" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center" className="conhecimentos">
+                    <div className="conhecimentos">
                         <h5>Possuo conhecimento em:</h5>
                         <ul>
                             <li>Git e Github</li>
@@ -32,7 +32,7 @@ const Sobre = () => {
                             <li>SOs: Windows e MacOs</li>
                         </ul>
                     </div>
-                    <div data-aos="fade-right" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center" className="aprendendo">
+                    <div className="aprendendo">
                         <h5>Estou aprendendo:</h5>
                         <ul>
                             <li>Computação em nuvem e ferramentas de DevOps (AWS, Ansible, Terraform e Docker)</li>

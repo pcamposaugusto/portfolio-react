@@ -15,8 +15,8 @@ function App() {
       <Header />
       <main>
         <div>
-          <a alt="ícone para entrar no Whatsapp" href="https://api.whatsapp.com/send?phone=+5571987942100" target="_blank">
-            <img id="whatsapp" src={whats} />
+          <a alt="ícone para entrar no Whatsapp" href="https://api.whatsapp.com/send?phone=+5571987942100" target="_blank" rel="noreferrer">
+            <img id="whatsapp" src={whats} alt="logo do Whatsapp" />
           </a>
         </div>
         <Sobre />

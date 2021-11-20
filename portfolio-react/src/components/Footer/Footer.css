@@ -38,6 +38,10 @@
   margin-top: 1rem;
 }
 
+.up {
+  padding-bottom: 1rem;
+}
+
 @media (min-width: 510px) {
   .footer-links1 {
     -webkit-box-orient: horizontal;

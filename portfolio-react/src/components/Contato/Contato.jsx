@@ -7,7 +7,7 @@ const Contato = () => {
             <div className="container-fluid contato">
                 <h2>CONTATO</h2>
                 <p>Além de poder me encontrar nas minhas redes sociais profissionais (LinkedIn e Github), você poderá me contatar via e-mail ou enviando uma mensagem por aqui:</p>
-                <p><img src={logoEmail} />paulaocaugusto@gmail.com</p>
+                <p><img src={logoEmail} alt="logo e-mail" />paulaocaugusto@gmail.com</p>
                 <form id="form1" name="form1" action="recebe_form.php" method="POST">
                 <div className="mb-3">
                     <label for="nome" className="form-label">Nome</label>

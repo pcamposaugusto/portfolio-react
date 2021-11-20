@@ -34,14 +34,14 @@ strong {
   padding: 1rem;
   border: none;
   border-radius: 5px;
-  background-color: #ffbc4b;
+  background-color: #a4c9d8;
   margin-top: 3rem;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
 }
 
 .btn-cv:hover {
-  background-color: #ffabb3;
+  background-color: #ffd0d5;
 }
 
 .btn-cv > a {
@@ -79,25 +79,24 @@ strong {
   .skills {
     color: #575b57;
   }
-  .conhecimentos {
-    background-color: #ffd0d5;
-    padding: 1.5rem;
-    border-radius: 1rem;
-    border: #575b57 1px solid;
-    -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
-  }
-  .aprendendo {
-    background-color: #a4c9d8;
+  .conhecimentos, .aprendendo {
+    background-color: #ffbc4b;
+    color: #333533;
     margin-top: 2rem;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 1rem;
-    border: #575b57 1px solid;
+    border: #333533 1px solid;
     -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
   }
   .skills li {
     font-size: 1rem;
+  }
+  h5 {
+    color: #0b749d;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    font-weight: bold;
   }
 }
 /*# sourceMappingURL=Sobre.css.map */

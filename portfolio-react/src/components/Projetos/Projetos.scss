@@ -1,12 +1,45 @@
 @import '../../variables/Variables.scss';
 
-.cards {    
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 18px;
-    text-align: left;
+#projetos {
     background-color: $backgroundCinza;
-    padding: 4.5rem 4.5rem;
+    padding: 4.5rem;
+}
+
+.grid-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, repeat(16rem, 1fr));
+    text-align: center;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.img-projeto {
+    max-width: 20rem;
+    border-radius: 1rem;
+}
+
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    gap: .8rem;
+    padding: .8rem;
+    border-radius: 1rem;
+    color: $cinzaSkills;
+}
+
+.grid-item h5 {
+    color: $rosa;
+}
+
+.icones-projeto {
+    align-self: flex-end;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    filter: invert(1);
 }
 
 
