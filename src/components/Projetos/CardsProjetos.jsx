@@ -46,7 +46,7 @@ const projetoLivrariaCosac = {
     pagina: "", 
     imagemCard: livrariaCosac, 
     titulo: "POO - Livraria Cosac", 
-    linguagens: "Java"
+    linguagens: "JAVA"
 }
 
 
