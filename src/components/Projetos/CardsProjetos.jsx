@@ -15,8 +15,8 @@ const projetoToDoList = {
 
 const projetoEcommerce = {
     card: "grid-item", 
-    repo: "https://github.com/pcamposaugusto/dh-frontend-sudaca", 
-    pagina: "https://thaysgama.github.io/dh-frontend-sudaca/", 
+    repo: "https://github.com/pcamposaugusto/checkpoint-1-front-end-II", 
+    pagina: "https://eduardoaraujogomes.github.io/checkpoint-1-front-end-II/", 
     imagemCard: ecommerce, 
     titulo: "E-commerce", 
     linguagens: "HTML|CSS - JS"
@@ -24,8 +24,8 @@ const projetoEcommerce = {
 
 const projetoSudaca = {
     card: "grid-item", 
-    repo: "https://github.com/pcamposaugusto/checkpoint-1-front-end-II", 
-    pagina: "https://eduardoaraujogomes.github.io/checkpoint-1-front-end-II/", 
+    repo: "https://github.com/pcamposaugusto/dh-frontend-sudaca", 
+    pagina: "https://thaysgama.github.io/dh-frontend-sudaca/", 
     imagemCard: sudaca, 
     titulo: "Sudaca Filmes", 
     linguagens: "HTML|CSS"
